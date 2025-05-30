@@ -55,7 +55,7 @@
             background-repeat: no-repeat;
             background-position: center;
             border: 4px solid;
-            border-color: #fabb4f; 
+            border-color: #fabb4f;
         }
 
         @media (max-width: 640px) {
