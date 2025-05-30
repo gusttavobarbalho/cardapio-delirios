@@ -1,0 +1,84 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/fundo.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+
+        .logo {
+            width: 300px;       /* largura da logo */
+            height: 300px;       /* altura da logo */
+            margin: 0 auto 2rem auto; /* centralizar horizontal e espaçamento abaixo */
+            background-image: url('images/logo.jpg'); /* caminho da imagem */
+            margin-top: 4%;
+            border-color: #f59e0b;
+            background-size: 100%;  /* ajusta a imagem para caber no espaço */
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 4px solid;
+            border-radius: 50%;
+            border-color: #fabb4f;
+            
+        }
+
+        .price-tag {
+            background-color: #f59e0b;
+            color: rgb(255, 255, 255);
+            border-radius: 9999px;
+            padding: 0.25rem 0.75rem;
+            font-weight: 600;
+        }
+        
+        .category-divider {
+            border-bottom: 3px dashed #ffffff;
+            margin: 1.5rem 0;
+        }
+        
+        .footer-wave {
+               
+            height: 100px;
+            margin-top: -1px;
+        }
+
+        .qrcode {
+            width: 160px;       /* largura da logo */
+            height: 160px;       /* altura da logo */
+            background-image: url('images/qrcode.jpg'); /* caminho da imagem */
+            margin-top: 4%;
+            border-color: #f59e0b;
+            background-size: 100%;  /* ajusta a imagem para caber no espaço */
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 4px solid;
+            border-color: #fabb4f; 
+        }
+
+        @media (max-width: 640px) {
+            .menu-container {
+                padding: 0 1rem;
+            }
+        }
+
+        @keyframes pulse {
+             0%, 100% {
+             transform: scale(1);
+             opacity: 1;
+           }
+           50% {
+             transform: scale(1.05);
+             opacity: 0.8;
+           }
+        }
+
+        .text-center.mb-10 {
+             animation: pulse 4s infinite ease-in-out;
+        }
+
+
+
+
